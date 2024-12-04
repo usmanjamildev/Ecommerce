@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+.slide{
+    background: black;
+    height: 4vh;
+  }
+  .slide marquee{
+    font-size: 2vh;
+  }
+  .blink {
+    text-decoration: none;
+    animation: blink-animation 2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+.header {
+  position: relative;
+  z-index: 1;
+  height: 5.755vh;
+  width: 100vw;
+  display: flex;
+  justify-content:space-around;
+}
+.img{
+    padding-left: 2vw;
+   margin-top: 1.5vw;
+   margin-left: 1.5vw;
+}
+.btn{
+  display: flex;
+  gap: 2em;
+  height: 5vh;
+  margin-top: 2vw;
+}
+.btn a:hover{
+  border-bottom: 1px solid black;
+}
+.btn a{
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+  padding-bottom: 2vw;
+}
+.idn{
+  margin-top:3vw ;
+  height: 5vh;
+  display: flex;
+  gap: 2em;
+}
+.idn i{
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: black;
+  padding-bottom: 2vw;
+}
+.main-container{
+    display: flex;
+}
+ .left{
+    width: 250px;
+    height: 800px;
+    position: sticky;
+    top: 10px;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: -1.5vw;
+  margin-top: .4vw;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent;
+}
+.dropdown-menu {
+  --bs-dropdown-zindex: 1000;
+  --bs-dropdown-min-width: 175px;
+  --bs-dropdown-padding-x: 0;
+  --bs-dropdown-padding-y: 0.5rem;
+  --bs-dropdown-spacer: 0.125rem;
+  --bs-dropdown-font-size: 1rem;
+  --bs-dropdown-color: var(--bs-body-color);
+  --bs-dropdown-bg: var(--bs-body-bg);
+}
+.right{
+    width: calc(100% - 300px);
+}
+.anchors{
+  display: flex;
+  flex-direction: column;
+  gap: .7em;
+  padding-left: .5vw;
+}
+.anchors a{
+  color: rgba(0, 0, 0, 0.836);
+  text-decoration: none;
+  font-size: 1vw;
+  font-weight: 500;
+}
+.anchors a:hover{
+  transform: translateX(15px);
+  transition: .3s ease;
+}
+.items{
+  padding: 0 1.8vw;
+  height: 2.9vw;
+  border: 1px solid  #9797976b;
+  margin-left: 1vw;
+  font-size: .8vw;
+  color: rgba(0, 0, 0, 0.63);
+}
+.items-2{
+  padding: 0 .5vw;
+  height: 2.9vw;
+  border: 1px solid  #9797976b;
+  margin-left: 1vw;
+  font-size: .8vw;
+  color: rgba(0, 0, 0, 0.63);
+}
+.snap1:hover img{
+  opacity: 0;
+}
+.snap1:hover{
+  background-image: url("/images/snap1\(1\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap2:hover img{
+  opacity: 0;
+}
+.snap2:hover{
+  background-image: url("/images/snap2\(2\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap3:hover img{
+  opacity: 0;
+}
+.snap3:hover{
+  background-image: url("/images/snap3\(3\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap4:hover img{
+  opacity: 0;
+}
+.snap4:hover{
+  background-image: url("/images/snap4\(4\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap5:hover img{
+  opacity: 0;
+}
+.snap5:hover{
+  background-image: url("/images/snap5\(5\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap6:hover img{
+  opacity: 0;
+}
+.snap6:hover{
+  background-image: url("/images/snap6\(6\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap7:hover img{
+  opacity: 0;
+}
+.snap7:hover{
+  background-image: url("/images/snap7\(7\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap8:hover img{
+  opacity: 0;
+}
+.snap8:hover{
+  background-image: url("/images/snap8\(8\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap9:hover img{
+  opacity: 0;
+}
+.snap9:hover{
+  background-image: url("/images/snap9\(9\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap10:hover img{
+  opacity: 0;
+}
+.snap10:hover{
+  background-image: url("/images/snap10\(10\).avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap11:hover img{
+  opacity: 0;
+}
+.snap11:hover{
+  background-image: url("/images/snap11\(11\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap12:hover img{
+  opacity: 0;
+}
+.snap12:hover{
+  background-image: url("/images/snap12\(12\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap13:hover img{
+  opacity: 0;
+}
+.snap13:hover{
+  background-image: url("/images/snap13\(13\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap14:hover img{
+  opacity: 0;
+}
+.snap14:hover{
+  background-image: url("/images/snap14\(14\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap15:hover img{
+  opacity: 0;
+}
+.snap15:hover{
+  background-image: url("/images/snap15\(15\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap16:hover img{
+  opacity: 0;
+}
+.snap16:hover{
+  background-image: url("/images/snap16\(16\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap17:hover img{
+  opacity: 0;
+}
+.snap17:hover{
+  background-image: url("/images/snap17\(17\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap18:hover img{
+  opacity: 0;
+}
+.snap18:hover{
+  background-image: url("/images/snap18\(18\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap19:hover img{
+  opacity: 0;
+}
+.snap19:hover{
+  background-image: url("/images/snap19\(19\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap20:hover img{
+  opacity: 0;
+}
+.snap20:hover{
+  background-image: url("/images/snap20\(20\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.snap21:hover img{
+  opacity: 0;
+}
+.snap21:hover{
+  background-image: url("/images/snap21\(21\).webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
