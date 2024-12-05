@@ -75,7 +75,7 @@ margin-top: 1vw;
   font-size: 1.4vw;
 }
 .parallax{
-  background-image: url("./images/b2.webp");
+  background-image: url("images/b2.webp");
   min-height: 900px;
   background-attachment: fixed;
   background-position: center;
@@ -140,7 +140,7 @@ margin-top: 1vw;
   opacity: 0;
 }
 .snap-1:hover{
-  background-image: url("/images/snap1\(1\).avif");
+  background-image: url("images/snap1\(1\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -150,7 +150,7 @@ margin-top: 1vw;
   opacity: 0;
 }
 .snap-2:hover{
-  background-image: url("/images/snap2\(2\).avif");
+  background-image: url("images/snap2\(2\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -160,7 +160,7 @@ margin-top: 1vw;
   opacity: 0;
 }
 .snap-3:hover{
-  background-image: url("/images/snap3\(3\).avif");
+  background-image: url("images/snap3\(3\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
