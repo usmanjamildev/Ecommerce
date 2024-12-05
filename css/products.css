@@ -9,11 +9,11 @@ height: 100%;
 width: 100%;
 overflow-x: hidden;
 }
-.slide{
+.slide-01{
     background: black;
     height: 4vh;
   }
-  .slide marquee{
+  .slide-01 marquee{
     font-size: 2vh;
   }
   .blink {
@@ -78,7 +78,7 @@ overflow-x: hidden;
     width: 250px;
     height: 800px;
     position: sticky;
-    top: 10px;
+    top: 0;
 }
 .dropdown-toggle::after {
   display: inline-block;
@@ -138,6 +138,7 @@ overflow-x: hidden;
 }
 .snap1:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap1:hover{
   background-image: url("/images/snap1\(1\).avif");
@@ -147,6 +148,7 @@ overflow-x: hidden;
 }
 .snap2:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap2:hover{
   background-image: url("/images/snap2\(2\).avif");
@@ -156,6 +158,7 @@ overflow-x: hidden;
 }
 .snap3:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap3:hover{
   background-image: url("/images/snap3\(3\).avif");
@@ -165,6 +168,7 @@ overflow-x: hidden;
 }
 .snap4:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap4:hover{
   background-image: url("/images/snap4\(4\).avif");
@@ -174,6 +178,7 @@ overflow-x: hidden;
 }
 .snap5:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap5:hover{
   background-image: url("/images/snap5\(5\).avif");
@@ -183,6 +188,7 @@ overflow-x: hidden;
 }
 .snap6:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap6:hover{
   background-image: url("/images/snap6\(6\).avif");
@@ -192,6 +198,7 @@ overflow-x: hidden;
 }
 .snap7:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap7:hover{
   background-image: url("/images/snap7\(7\).avif");
@@ -201,6 +208,7 @@ overflow-x: hidden;
 }
 .snap8:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap8:hover{
   background-image: url("/images/snap8\(8\).avif");
@@ -210,6 +218,7 @@ overflow-x: hidden;
 }
 .snap9:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap9:hover{
   background-image: url("/images/snap9\(9\).avif");
@@ -219,6 +228,7 @@ overflow-x: hidden;
 }
 .snap10:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap10:hover{
   background-image: url("/images/snap10\(10\).avif");
@@ -228,6 +238,7 @@ overflow-x: hidden;
 }
 .snap11:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap11:hover{
   background-image: url("/images/snap11\(11\).webp");
@@ -237,6 +248,7 @@ overflow-x: hidden;
 }
 .snap12:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap12:hover{
   background-image: url("/images/snap12\(12\).webp");
@@ -246,6 +258,7 @@ overflow-x: hidden;
 }
 .snap13:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap13:hover{
   background-image: url("/images/snap13\(13\).webp");
@@ -255,6 +268,7 @@ overflow-x: hidden;
 }
 .snap14:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap14:hover{
   background-image: url("/images/snap14\(14\).webp");
@@ -264,6 +278,7 @@ overflow-x: hidden;
 }
 .snap15:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap15:hover{
   background-image: url("/images/snap15\(15\).webp");
@@ -273,6 +288,7 @@ overflow-x: hidden;
 }
 .snap16:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap16:hover{
   background-image: url("/images/snap16\(16\).webp");
@@ -282,6 +298,7 @@ overflow-x: hidden;
 }
 .snap17:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap17:hover{
   background-image: url("/images/snap17\(17\).webp");
@@ -291,6 +308,7 @@ overflow-x: hidden;
 }
 .snap18:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap18:hover{
   background-image: url("/images/snap18\(18\).webp");
@@ -300,6 +318,7 @@ overflow-x: hidden;
 }
 .snap19:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap19:hover{
   background-image: url("/images/snap19\(19\).webp");
@@ -309,6 +328,7 @@ overflow-x: hidden;
 }
 .snap20:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap20:hover{
   background-image: url("/images/snap20\(20\).webp");
@@ -318,6 +338,7 @@ overflow-x: hidden;
 }
 .snap21:hover img{
   opacity: 0;
+  cursor: pointer;
 }
 .snap21:hover{
   background-image: url("/images/snap21\(21\).webp");
