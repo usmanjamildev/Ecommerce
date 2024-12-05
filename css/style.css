@@ -75,7 +75,7 @@ margin-top: 1vw;
   font-size: 1.4vw;
 }
 .parallax{
-  background-image: url("/images/b2.webp");
+  background-image: url("./images/b2.webp");
   min-height: 900px;
   background-attachment: fixed;
   background-position: center;
