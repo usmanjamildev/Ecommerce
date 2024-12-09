@@ -141,7 +141,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap1:hover{
-  background-image: url("/images/snap1\(1\).avif");
+  background-image: url("../images/snap1\(1\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -151,7 +151,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap2:hover{
-  background-image: url("/images/snap2\(2\).avif");
+  background-image: url("../images/snap2\(2\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -161,7 +161,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap3:hover{
-  background-image: url("/images/snap3\(3\).avif");
+  background-image: url("../images/snap3\(3\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -171,7 +171,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap4:hover{
-  background-image: url("/images/snap4\(4\).avif");
+  background-image: url("../images/snap4\(4\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -181,7 +181,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap5:hover{
-  background-image: url("/images/snap5\(5\).avif");
+  background-image: url("../images/snap5\(5\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -191,7 +191,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap6:hover{
-  background-image: url("/images/snap6\(6\).avif");
+  background-image: url("../images/snap6\(6\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -201,7 +201,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap7:hover{
-  background-image: url("/images/snap7\(7\).avif");
+  background-image: url("../images/snap7\(7\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -211,7 +211,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap8:hover{
-  background-image: url("/images/snap8\(8\).avif");
+  background-image: url("../images/snap8\(8\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -221,7 +221,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap9:hover{
-  background-image: url("/images/snap9\(9\).avif");
+  background-image: url("../images/snap9\(9\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -231,7 +231,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap10:hover{
-  background-image: url("/images/snap10\(10\).avif");
+  background-image: url("../images/snap10\(10\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -241,7 +241,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap11:hover{
-  background-image: url("/images/snap11\(11\).webp");
+  background-image: url("../images/snap11\(11\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -251,7 +251,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap12:hover{
-  background-image: url("/images/snap12\(12\).webp");
+  background-image: url("../images/snap12\(12\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -261,7 +261,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap13:hover{
-  background-image: url("/images/snap13\(13\).webp");
+  background-image: url("../images/snap13\(13\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -271,7 +271,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap14:hover{
-  background-image: url("/images/snap14\(14\).webp");
+  background-image: url("../images/snap14\(14\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -281,7 +281,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap15:hover{
-  background-image: url("/images/snap15\(15\).webp");
+  background-image: url("../images/snap15\(15\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -291,7 +291,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap16:hover{
-  background-image: url("/images/snap16\(16\).webp");
+  background-image: url("../images/snap16\(16\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -301,7 +301,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap17:hover{
-  background-image: url("/images/snap17\(17\).webp");
+  background-image: url("../images/snap17\(17\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -311,7 +311,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap18:hover{
-  background-image: url("/images/snap18\(18\).webp");
+  background-image: url("../images/snap18\(18\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -321,7 +321,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap19:hover{
-  background-image: url("/images/snap19\(19\).webp");
+  background-image: url("../images/snap19\(19\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -331,7 +331,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap20:hover{
-  background-image: url("/images/snap20\(20\).webp");
+  background-image: url("../images/snap20\(20\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -341,7 +341,7 @@ overflow-x: hidden;
   cursor: pointer;
 }
 .snap21:hover{
-  background-image: url("/images/snap21\(21\).webp");
+  background-image: url("../images/snap21\(21\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;

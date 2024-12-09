@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+html,
+body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}
+.slide-01{
+    background: black;
+    height: 4vh;
+  }
+  .slide-01 marquee{
+    font-size: 2vh;
+  }
+  .blink {
+    text-decoration: none;
+    animation: blink-animation 2s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+.header {
+  position: relative;
+  z-index: 1;
+  height: 5.755vh;
+  width: 100vw;
+  display: flex;
+  justify-content:space-around;
+}
+.img{
+    padding-left: 2vw;
+   margin-top: 1.5vw;
+   margin-left: 1.5vw;
+}
+.btn{
+  display: flex;
+  gap: 2em;
+  height: 5vh;
+  margin-top: 2vw;
+}
+.btn a:hover{
+  border-bottom: 1px solid black;
+}
+.btn a{
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+  padding-bottom: 2vw;
+}
+.idn{
+  margin-top:3vw ;
+  height: 5vh;
+  display: flex;
+  gap: 2em;
+}
+.idn i{
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: black;
+  padding-bottom: 2vw;
+}
+.main-container{
+    display: flex;
+    padding: 0 3vw;
+}
+.left{
+    width: 70%;
+}
+.listing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    padding: 1vw 2vw;
+}
+.listing h4{
+    font-size: .9vw;
+    font-weight: 699;
+}
+.inner-listing{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 6em;
+
+}
+.inner-listing h4{
+    font-size: .9vw;
+    font-weight: 699;
+}
+.right{
+    width: 30%;
+}
