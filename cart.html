@@ -15,84 +15,408 @@
 </head>
 
 <body>
-<!-- slider for offer -->
-<div class="slide-01">
-    <marquee class="bg-black text-white" direction="left" scrollamount="15">ADVANCE "2000 PKR" REQUIRED FOR ORDER
-      CONFIRMATION.
-      AVAIL UPTO 40% OFF (Instore & Online). DELIVERY WITHIN 3-10 DAYS.</marquee>
-  </div>
-  <!-- --------------------------here our header starts -->
-  <header class="header">
-    <div class="img">
-      <img src="images/logo.webp" style="width: 70px;">
+    <!-- slider for offer -->
+    <div class="slide-01">
+        <marquee class="bg-black text-white" direction="left" scrollamount="15">ADVANCE "2000 PKR" REQUIRED FOR ORDER
+            CONFIRMATION.
+            AVAIL UPTO 40% OFF (Instore & Online). DELIVERY WITHIN 3-10 DAYS.</marquee>
     </div>
-    <div class="btn">
-      <a href="products.html">New Arrivals</a>
-      <a href="#">Loafers</a>
-      <a href="#">Monk Shoes</a>
-      <a href="#">Formal</a>
-      <a href="#">Slippers</a>
-      <a href="#">Accessories</a>
-      <a href="#">Peshawari</a>
-      <a href="#">Track Order</a>
-      <a href="#" class="blink" style="color: red;">Sale</a>
-      <a href="#">Special Prices</a>
-    </div>
-    <div class="idn">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <i class="fa-regular fa-heart"></i>
-      <i class='bx bx-cart-alt'></i>
-    </div>
-  </header>
-  <!-- here the header ended -->
-  <br>
-  <!-- hr tag for line -->
-  <hr style="margin-top: 2.6vw; margin-bottom: 0; color: rgba(0, 0, 0, .2);">
-  <!------------- this is our heading for cart ------------>
-  <div class="row mt-5">
-    <div class="col-12">
-        <h4 style="font-size: 1.5vw; font-weight: 799; letter-spacing: 1px;padding-top: 1.5vw; margin-left: 3vw;">
-            MY CART
-        </h4>
-    </div>
-  </div>
-  <!--------------------- warning for time-over ---------------------->
-  <div class="warning-time d-flex align-items-center justify-content-center" style="margin: 2vw 3vw; background: rgba(255, 192, 203, 0.2); padding: 1vw 6vw;">
-    <p style="padding: 0; margin: 0; font-size: 1vw; color: #a18f5d;">
-        <i class='bx bx-info-circle' style='color:#a18f5d'  ></i>  Please, hurry! Someone has placed an order on one of the items you have in the cart. We'll keep it for you for 11:01 minutes..</p>
-  </div>
-  <!---------------------- we are going to divide our page into two sections --------------->
-  <div class="main-container">
-    <!-------------- this our left section of the page in which only product info exist -------------------->
-    <div class="left">
-        <div class="listing">
-            <h4>
-                PRODUCTS
+    <!-- --------------------------here our header starts -->
+    <header class="header">
+        <div class="img">
+            <img src="images/logo.webp" style="width: 70px;">
+        </div>
+        <div class="btn">
+            <a href="products.html">New Arrivals</a>
+            <a href="#">Loafers</a>
+            <a href="#">Monk Shoes</a>
+            <a href="#">Formal</a>
+            <a href="#">Slippers</a>
+            <a href="#">Accessories</a>
+            <a href="#">Peshawari</a>
+            <a href="#">Track Order</a>
+            <a href="#" class="blink" style="color: red;">Sale</a>
+            <a href="#">Special Prices</a>
+        </div>
+        <div class="idn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class='bx bx-cart-alt'></i>
+        </div>
+    </header>
+    <!-- here the header ended -->
+    <br>
+    <!-- hr tag for line -->
+    <hr style="margin-top: 2.6vw; margin-bottom: 0; color: rgba(0, 0, 0, .2);">
+    <!------------- this is our heading for cart ------------>
+    <div class="row mt-5">
+        <div class="col-12">
+            <h4 style="font-size: 1.5vw; font-weight: 799; letter-spacing: 1px;padding-top: 1.5vw; margin-left: 3vw;">
+                MY CART
             </h4>
-            <div class="inner-listing">
-                <h4>
-                    PRICE
-                </h4>
-                <h4>
-                    QUANTITY
-                </h4>
-                <h4>
-                    TOTAL         
-                </h4>
+        </div>
+    </div>
+    <!--------------------- warning for time-over ---------------------->
+    <div class="warning-time d-flex align-items-center justify-content-center"
+        style="margin: 2vw 3vw; background: rgba(255, 192, 203, 0.2); padding: 1vw 6vw;">
+        <p style="padding: 0; margin: 0; font-size: 1vw; color: #a18f5d;">
+            <i class='bx bx-info-circle' style='color:#a18f5d'></i> Please, hurry! Someone has placed an order on one of
+            the items you have in the cart. We'll keep it for you for 11:01 minutes..
+        </p>
+    </div>
+    <!---------------------- we are going to divide our page into two sections --------------->
+    <div class="main-container">
+        <!-------------- this our left section of the page in which only product info exist -------------------->
+        <div class="left">
+            <!----------- this is the heading which contains prics,quantity and total ---------->
+            <div class="row mx-0" style="background: #FAFAFA; padding: 1vw 1vw;">
+                <div class="col-7 px-0">
+                    <h5 class="my-0" style="color: black; font-size: .8vw; font-weight: 699;">
+                        PRODUCTS
+                    </h5>
+                </div>
+                <div class="col-5 px-0">
+                    <div class="row m-0 p-0">
+                        <div class="col m-0 p-0">
+                            <h5 class="my-0" style="color: black; font-size: .8vw; font-weight: 699;">
+                                PRICE
+                            </h5>
+                        </div>
+                        <div class="col m-0 p-0">
+                            <h5 class="my-0" style="color: black; font-size: .8vw; font-weight: 699;">
+                                QUANTITY
+                            </h5>
+                        </div>
+                        <div class="col m-0 p-0">
+                            <h5 class="my-0" style="color: black; font-size: .8vw; font-weight: 699;">
+                                TOTAL
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-0 mt-4">
+                <div class="col-7 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col">
+                            <img src="/images/snap1.avif" class="w-100">
+                        </div>
+                        <div class="col px-0 pt-4">
+                            <h5 style="font-size: .9vw; font-weight: 599;">Lu-H-Blk-0139</h5>
+                            <p style="color: rgba(0, 0, 0, 0.455); font-style: italic; font-size: 1vw;">
+                                39
+                            </p>
+                        </div>
+                        <div class="col"></div>
+                        <div class="col mx-0 px-0"></div>
+                    </div>
+                </div>
+                <div class="col-5 mx-0 px-0">
+                    <div class="row mx-0 px-0">
+                        <div class="col mx-0 px-0 pt-4">
+                            <h5 style="font-size: .8vw; font-weight: 699;">
+                                Rs.15,000.00
+                            </h5>
+                        </div>
+                        <div class="col mx-0 px-0 pt-2">
+                            <input type="number" placeholder="1" style="padding: 1vw 2vw; width: 6vw; border: 1px solid rgba(0, 0, 0, 0.2);">
+                        </div>
+                        <div class="col mx-0 px-0 pt-4">
+                            <h5 style="font-size: .8vw; font-weight: 799;">
+                                Rs.15,000.00
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="row pt-3">
+                <div class="col-12">
+                    <h5
+                        style="font-size: .8vw; font-weight: 699; border-bottom: 1px solid rgba(0, 0, 0, 0.2); padding-bottom: 1vw;">
+                        ORDER SUMMARY
+                    </h5>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-6">
+                    <h5 style="font-size: .8vw; font-weight: 599;">
+                        Sub Total:
+                    </h5>
+                </div>
+                <div class="col-6 text-end">
+                    <h5 style="font-weight: 599;">
+                        Rs.15,000.00
+                    </h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12">
+                    <h5 style="font-size: 1vw; font-weight: 599;">
+                        Additional comments
+                    </h5>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <textarea name="" id="" cols="41" rows="4" placeholder="Special instruction for seller..."
+                        style="border: 1px solid rgba(0, 0, 0, 0.2); padding: .5vw .7vw; font-size: .9vw;"></textarea>
+                </div>
+            </div>
+            <!------------------------ get shipping estimate ------------------>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <h5 style="text-transform: uppercase; font-size: .8vw; font-weight: 699; letter-spacing: 1px;">
+                        Get shipping estimates
+                    </h5>
+                </div>
+            </div>
+            <hr>
+            <select name="items" class="countries">
+                <option value="Pakistan">Pakistan</option>
+                <option value="France">France</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Åland Islands">Åland Islands</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Aruba">Aruba</option>
+                <option value="Ascension Island">Ascension Island</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Cape Verde">Cape Verde</option>
+                <option value="Caribbean Netherlands">Caribbean Netherlands</option>
+                <option value="Cayman Islands">Cayman Islands</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chile">Chile</option>
+            </select>
+            <!------------------ this input is for area ----------------->
+            <div class="row pt-3">
+                <div class="col-3">
+                    <input type="text" placeholder=""
+                        style="padding: 1vw 2vw; width: 250%; border: 1px solid rgba(0, 0, 0, 0.2);">
+                </div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+            </div>
+            <!------------------ calculate shipping button ----------------->
+            <div class="row pt-3">
+                <div class="col-12">
+                    <button class="calculate">CALCULATE SHIPPING</button>
+                </div>
+            </div>
+            <hr>
+            <!---------------- total amount you have to pay ------------------>
+            <div class="row pt-3">
+                <div class="col">
+                    <h5 style="font-size: 1vw; font-weight: 699; color: black;">
+                        TOTAL:
+                    </h5>
+                </div>
+                <div class="col text-end">
+                    <h5 style="font-weight: 599;">
+                        Rs.15,000.00
+                    </h5>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <input type="checkbox">
+                    <p style="color: black; margin: 0 1vw;">I agree with the <a href="#" style="color: black;">Terms &
+                            conditions</a> </p>
+                </div>
+            </div>
+            <!------------------------ proceed to checkout button ----------->
+            <div class="row pt-3">
+                <div class="col-12">
+                    <button class="proceed">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+            <!------------------ continue shopping button --------------->
+            <div class="row pt-3">
+                <div class="col-12">
+                    <button class="continue">CONTINUE SHOPPING</button>
+                </div>
             </div>
         </div>
     </div>
-    <div class="right">
-        <div class="row px-3 pt-3">
-            <div class="col-12">
-                <h5 style="font-size: .8vw; font-weight: 699; border-bottom: 1px solid rgba(0, 0, 0, 0.2); padding-bottom: 1vw;">
-                    ORDER SUMMARY
-                </h5>
+
+
+    <!------------------------------ This is my footer  -------------------------------------->
+
+
+    <div class="container-fluid mx-0 mt-5" style="background: #232323;">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col mt-5 ms-5 ">
+                        <h5 style=" color: white; font-size: 1vw; font-weight: 700; margin-bottom: 1.5vw;">
+                            COMPANY INFORMATION
+                        </h5>
+                        <P style="color: white; font-size: 0.9vw;">
+                            About Us
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Our Stores
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Contact Us
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            FAQ's
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Blog
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Tracking
+                        </P>
+                    </div>
+                    <div class="col mt-5 ms-4">
+                        <h5 style=" color: white; font-size: 1vw; font-weight: 700; margin-bottom: 1.5vw;">
+                            CUSTOMER SERVICES
+                        </h5>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Size guide
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Exchange Policy
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Privacy Policy
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Terms & Conditions
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Terms of service
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Refund Policy
+                        </P>
+                    </div>
+                    <div class="col mt-5 ms-4">
+                        <h5 style=" color: white; font-size: 1vw; font-weight: 700; margin-bottom: 1.5vw;">
+                            SHOP NOW
+                        </h5>
+                        <P style="color: white; font-size: 0.9vw;">
+                            New Arrivals
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Loafers
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Monk Shoes
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Formal
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Slippers
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Accessories
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Peshawari
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Track Order
+                        </P>
+                        <P style="color: white; font-size: 0.9vw;">
+                            Sale
+                        </P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-12 mt-5 mb-3">
+                        <h5 style=" color: white; font-size: 1vw; font-weight: 700;">
+                            STAY CONNECTED
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="icons">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-tiktok'></i>
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-pinterest-alt' id="pinterest"></i>
+                        </div>
+                    </div>
+                    <div class="col pe-5">
+                        <div class="facebook-details">
+                            <h6 class="text-end" style="color: white;font-size: 1vw; margin-bottom: 3px;">
+                                LIKE US ON FACEBOOK
+                            </h6>
+                            <p class="text-end">
+                                <a href="#"
+                                    style="color: white; background: #0688E2; font-size: .8vw; padding: .2vw .7vw; border-radius: 5px; text-decoration: none;">
+                                    <i class='bx bxs-like'></i>
+                                    LIKE 50K
+                                </a>
+                                <a href="#"
+                                    style="color: white; background: #0688E2; font-size: .8vw; padding: .2vw .7vw; border-radius: 5px; margin-left: 1vw; text-decoration: none;">
+                                    Share
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <h5 style=" color: white; font-size: 1vw; font-weight: 700;">
+                        SIGN UP FOR OUR NEWSLETTER
+                    </h5>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-6">
+                        <input type="email" placeholder="enter your email address"
+                            style="color: #232323; border: 1px solid #9696963f; background-color: #232323; padding: .7vw 5vw .7vw 1vw; font-size: .96vw;">
+                    </div>
+                    <div class="col-lg-6 mx-0 mt-2 px-0">
+                        <a href="#"
+                            style="color: white; text-decoration: none; background: #4d4d4d80; padding: 1vw 2.4vw; font-size: 1vw;">
+                            SUBMIT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <div class="row">
+            <div class="col-lg-12 ms-5 mt-3">
+                <p class="mb-0" style="color: #969696; font-size: .9vw;">
+                    &#169 2021 Lacedup. All Rights Reserved.
+                </p>
+                <a href="#" class="mt-0" style="color: #969696; font-size: .9vw; text-decoration: none;">
+                    Developed by Usman Jamil.
+                </a>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
         </div>
     </div>
-  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
 </html>

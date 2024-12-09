@@ -78,28 +78,64 @@ overflow-x: hidden;
 .left{
     width: 70%;
 }
-.listing{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #FAFAFA;
-    padding: 1vw 2vw;
-}
-.listing h4{
-    font-size: .9vw;
-    font-weight: 699;
-}
-.inner-listing{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 6em;
-
-}
-.inner-listing h4{
-    font-size: .9vw;
-    font-weight: 699;
-}
 .right{
     width: 30%;
+    padding: 0 2vw;
+}
+.countries{
+  width: 100%;
+  padding: 1vw 1vw;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.calculate{
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 599;
+  background: white; 
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+  padding: 1vw 7.3vw;
+  font-size: .8vw;
+}
+.calculate:hover{
+color: white;
+background: black;
+transition: .5s;
+}
+.proceed{
+  color:white;
+  font-weight: 599;
+  background:  black;
+  border: none;
+  padding: 1vw 7vw;
+  font-size: .8vw;
+}
+.proceed:hover{
+background: rgba(255, 0, 0, 0.8);
+transition: .5s;
+}
+.continue{
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 599;
+  background: white; 
+  border: 1px solid rgba(0, 0, 0, 0.2); 
+  padding: 1vw 7.4vw;
+  font-size: .8vw;
+}
+.continue:hover{
+color: white;
+background: black;
+transition: .5s;
+}
+.icons{
+  display: flex;
+  gap: .8em;
+}
+.icons i{
+  background: white;
+  font-size: 1.7vw;
+  border-radius: 50%;
+  padding: .4vw;
+}
+.icons i:hover{
+  background: rgba(0, 0, 105, 0.377);
+  color: white;
 }

@@ -200,3 +200,17 @@ overflow-x: hidden;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.icons{
+  display: flex;
+  gap: .8em;
+}
+.icons i{
+  background: white;
+  font-size: 1.7vw;
+  border-radius: 50%;
+  padding: .4vw;
+}
+.icons i:hover{
+  background: rgba(0, 0, 105, 0.377);
+  color: white;
+}
