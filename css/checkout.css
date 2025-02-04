@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 10vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header h5{
+    font-size: 1.5vw;
+}
+.header i{
+    font-size: 2vw;
+}
+.main-container{
+    display: flex;
+    
+}
+.left{
+    width: 55%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 3vw 3vw 2vw 10vw;
+}
+.right{
+    width: 45%;
+    background: #FAFAFA;
+}
+.mobile-number{
+    width: 100%;
+    margin-top: 1vw;
+}
+.mobile-number input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.countries{
+    margin-top: 1vw;
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.first-name input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.last-name input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.address input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.apartment input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.city input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.postal-code input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.phone input{
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.standard{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background: #F6F6F6;
+    margin-top: .5vw;
+}
