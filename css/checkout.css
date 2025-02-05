@@ -1,100 +1,118 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
 html,
-body{
+body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5vw 10vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.header h5{
+
+.header h5 {
     font-size: 1.5vw;
 }
-.header i{
+
+.header i {
     font-size: 2vw;
 }
-.main-container{
+
+.main-container {
     display: flex;
-    
+
 }
-.left{
+
+.left {
     width: 55%;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     padding: 3vw 3vw 2vw 10vw;
 }
-.right{
+
+.right {
     width: 45%;
     background: #FAFAFA;
 }
-.mobile-number{
+
+.mobile-number {
     width: 100%;
     margin-top: 1vw;
 }
-.mobile-number input{
+
+.mobile-number input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.countries{
+
+.countries {
     margin-top: 1vw;
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.first-name input{
+
+.first-name input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.last-name input{
+
+.last-name input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.address input{
+
+.address input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.apartment input{
+
+.apartment input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.city input{
+
+.city input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.postal-code input{
+
+.postal-code input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.phone input{
+
+.phone input {
     padding: 1vw 1vw;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
-.standard{
+
+.standard {
     display: flex;
     justify-content: space-between;
     padding: 1vw 1vw;
@@ -103,4 +121,21 @@ body{
     border-radius: 5px;
     background: #F6F6F6;
     margin-top: .5vw;
+}
+
+.calculate {
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1vw 15vw;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+
+.calculate:hover {
+    color: black;
+    background: white;
+    font-weight: 400;
+    transition: .5s;
 }
