@@ -1,0 +1,96 @@
+@media (max-width: 600px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .slide {
+        background: black;
+        height: 4vh;
+    }
+
+    .slide marquee {
+        font-size: 2vh;
+    }
+
+    .header {
+        position: relative;
+        z-index: 1;
+        height: 20vh;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img img {
+        width: 70px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .idn {
+        display: none;
+    }
+
+    .mycontainer1 {
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .pics1 img:hover {
+        transform: scale(1.2);
+        transition: 0.5s ease;
+    }
+
+    .pics2 img:hover {
+        transform: scale(1.2);
+        transition: 0.5s ease;
+    }
+
+    .pics3 img:hover {
+        transform: scale(1.2);
+        transition: 0.5s ease;
+    }
+
+    .now {
+        margin: 0;
+        padding: 0;
+    }
+
+    .now p {
+        font-weight: 700;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .adjust1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .adjust2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .adjust3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .parallax {
+        background-image: url("../images/b2.webp");
+        min-height: 50px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: round;
+        background-size: contain;
+    }
+    .adjust4, .adjust5, .adjust6{
+        font-size: 3.5vw;
+        font-weight: 700;
+    }
+}

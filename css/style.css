@@ -3,78 +3,101 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
-.slide{
+
+.slide {
   background: black;
   height: 4vh;
 }
-.slide marquee{
+
+.slide marquee {
   font-size: 2vh;
 }
+
 .blink {
-    text-decoration: none;
-    animation: blink-animation 2s steps(5, start) infinite;
-    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  text-decoration: none;
+  animation: blink-animation 2s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
-  @keyframes blink-animation {
-    to {
-      visibility: hidden;
-    }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
-  @-webkit-keyframes blink-animation {
-    to {
-      visibility: hidden;
-    }
-  }
+}
+
 .header {
   position: relative;
   z-index: 1;
   height: 20vh;
   width: 100vw;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.img{
-margin-top: 1vw;
+
+.img {
+  margin-top: 1vw;
 }
-.btn{
+
+.img img {
+  width: 100px;
+}
+
+.btn {
   display: flex;
   gap: 2em;
   height: 5vh;
   margin-top: 2vw;
 }
-.btn a:hover{
+
+.btn a:hover {
   border-bottom-style: solid;
 }
-.btn a{
+
+.btn a {
   text-decoration: none;
   font-size: 1vw;
   color: black;
   padding-bottom: 2vw;
 }
-.idn{
-  margin-top:3vw ;
+
+.idn {
+  margin-top: 3vw;
   height: 5vh;
   display: flex;
   gap: 2em;
 }
-.idn i{
+
+.idn i {
   text-decoration: none;
   font-size: 1.5vw;
   color: black;
   padding-bottom: 2vw;
 }
-.img-ver{
+
+.img-ver {
   margin-top: -20vh;
   position: absolute;
 }
-.now{
+.mycontainer1{
+  margin-top: 35vw;
+  margin-bottom: 10vw;
+}
+.now {
   margin-right: -7.7vw;
 }
-.now p{
+
+.now p {
   font-weight: 700;
   font-size: 1.4vw;
 }
-.parallax{
+
+.parallax {
   background-image: url("../images/b2.webp");
   min-height: 900px;
   background-attachment: fixed;
@@ -82,37 +105,45 @@ margin-top: 1vw;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.icons{
+
+.icons {
   display: flex;
   gap: .8em;
 }
-.icons i{
+
+.icons i {
   background: white;
   font-size: 1.7vw;
   border-radius: 50%;
   padding: .4vw;
 }
-.pics1 img:hover{
- transform: scale(1.05);
- transition: 0.5s ease;
+
+.pics1 img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
 }
-.pics2 img:hover{
- transform: scale(1.05);
- transition: 0.5s ease;
+
+.pics2 img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
 }
-.pics3 img:hover{
- transform: scale(1.05);
- transition: 0.5s ease;
+
+.pics3 img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
 }
-.icons i:hover{
+
+.icons i:hover {
   background: rgba(0, 0, 105, 0.377);
   color: white;
 }
-.my{
+
+.my {
   display: flex;
   gap: 2em;
 }
-.my a{
+
+.my a {
   color: #969696;
   font-size: 1.6vw;
   font-weight: 600;
@@ -120,10 +151,12 @@ margin-top: 1vw;
   position: relative;
   letter-spacing: .2vw;
 }
-.my a:hover{
+
+.my a:hover {
   color: black;
 }
-.my a::before{
+
+.my a::before {
   content: '';
   position: absolute;
   left: 0;
@@ -133,33 +166,40 @@ margin-top: 1vw;
   background-color: black;
   transition: 0.5s;
 }
-.my a:hover::before{
+
+.my a:hover::before {
   width: 100%;
 }
-.snap-1:hover img{
+
+.snap-1:hover img {
   opacity: 0;
 }
-.snap-1:hover{
+
+.snap-1:hover {
   background-image: url("../images/snap1\(1\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 24px;
 }
-.snap-2:hover img{
+
+.snap-2:hover img {
   opacity: 0;
 }
-.snap-2:hover{
+
+.snap-2:hover {
   background-image: url("../images/snap2\(2\).avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: 24px;
 }
-.snap-3:hover img{
+
+.snap-3:hover img {
   opacity: 0;
 }
-.snap-3:hover{
+
+.snap-3:hover {
   background-image: url("../images/snap3\(3\).avif");
   background-position: center;
   background-repeat: no-repeat;
