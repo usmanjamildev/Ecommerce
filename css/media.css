@@ -14,13 +14,42 @@
         font-size: 2vh;
     }
 
+    .sapare {
+        display: block;
+    }
+
+    .h-menu {
+        display: block;
+        height: 5vh;
+        width: 5vh;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.555);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20px;
+        left: 10px;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+
     .header {
         position: relative;
         z-index: 1;
         height: 20vh;
         width: auto;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .img img {
@@ -89,7 +118,10 @@
         background-repeat: round;
         background-size: contain;
     }
-    .adjust4, .adjust5, .adjust6{
+
+    .adjust4,
+    .adjust5,
+    .adjust6 {
         font-size: 3.5vw;
         font-weight: 700;
     }
